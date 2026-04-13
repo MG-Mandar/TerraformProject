@@ -4,7 +4,8 @@ resource "aws_subnet" "this" {
   availability_zone       = var.availability_zone
   map_public_ip_on_launch = var.is_public
 
-  tags = merge(var.tags, {
+  tags = {
     Name = var.subnet_name
-  })
+    Type = var.is_public ? "public" : "private"
+  }
 }
