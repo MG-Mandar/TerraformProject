@@ -6,7 +6,7 @@ Terraform module to create an AWS S3 bucket with versioning and AES256 encryptio
 
 ```hcl
 module "s3" {
-  source = "git::https://github.com/<your-org>/terraform-module-s3.git?ref=v1.0.0"
+  source = "git::https://github.com/MG-Mandar/terraform-module-s3.git?ref=v1.0.0"
 
   bucket_name = "myapp-dev-assets-20240101"
   environment = "dev"

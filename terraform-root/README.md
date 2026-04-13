@@ -6,10 +6,10 @@ Root Terraform configuration that consumes all infrastructure modules from separ
 
 | Repo | Purpose |
 |------|---------|
-| [terraform-module-vpc](https://github.com/<your-org>/terraform-module-vpc) | Creates an AWS VPC |
-| [terraform-module-subnet](https://github.com/<your-org>/terraform-module-subnet) | Creates subnets inside a VPC |
-| [terraform-module-ec2](https://github.com/<your-org>/terraform-module-ec2) | Creates EC2 instances + Security Groups |
-| [terraform-module-s3](https://github.com/<your-org>/terraform-module-s3) | Creates S3 bucket with encryption & versioning |
+| [terraform-module-vpc](https://github.com/MG-Mandar/terraform-module-vpc) | Creates an AWS VPC |
+| [terraform-module-subnet](https://github.com/MG-Mandar/terraform-module-subnet) | Creates subnets inside a VPC |
+| [terraform-module-ec2](https://github.com/MG-Mandar/terraform-module-ec2) | Creates EC2 instances + Security Groups |
+| [terraform-module-s3](https://github.com/MG-Mandar/terraform-module-s3) | Creates S3 bucket with encryption & versioning |
 | **terraform-root** (this repo) | Wires all modules together per environment |
 
 ## Usage
